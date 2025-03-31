@@ -23,7 +23,7 @@ Ensuring that your data follows these formats will allow smooth processing by th
 
 ## Command Line Arguments
 
-### `--test_data`
+
 **Required**  
 Type: `str`  
 Description: The file path to the test data. This can either be a **CSV file** containing test images and labels or a **directory** containing image files.  
