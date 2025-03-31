@@ -30,5 +30,5 @@ Example:
 ```bash
 python script.py --test_data /path/to/test_data/
 python script.py --test_data /path/to/test_data.csv
-python script.py --test_data path/to/images --test_labels path/to/labels.tx
+python script.py --test_data path/to/images --test_labels path/to/labels.txt
 
