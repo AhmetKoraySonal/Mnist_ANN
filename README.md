@@ -32,3 +32,17 @@ Example:
 python script.py --test_data /path/to/test_data/
 python script.py --test_data /path/to/test_data.csv
 
+In this example:
+- The `/path/to/test_images/` folder contains the image files (e.g., `image1.jpg`, `image2.jpg`).
+- The `/path/to/test_labels.txt` file contains labels corresponding to each image in the same order.
+
+### CSV Data
+If you are using a CSV file for testing, the data must follow this structure:
+- The **first column** should contain the labels (class identifiers).
+- The **remaining 784 columns** should contain the pixel values of the 28x28 images, flattened into a single row.
+- The CSV file must either:
+  - **Include a header row**, specifying column names, or
+  - **Start directly from the first row**, where the first column is the label and the rest are pixel values.
+
+**Example CSV structure (without header):**
+
