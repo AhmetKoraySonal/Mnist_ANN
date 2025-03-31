@@ -1,8 +1,7 @@
 
 
 # README
-# Mnist_ANN
- Classification with Mnist Data using ANN
+
 ## Input Data Format
 
 ### Image Data
@@ -23,7 +22,7 @@ Ensuring that your data follows these formats will allow smooth processing by th
 
 ## Command Line Arguments
 
-
+### `--test_data`
 **Required**  
 Type: `str`  
 Description: The file path to the test data. This can either be a **CSV file** containing test images and labels or a **directory** containing image files.  
@@ -32,5 +31,7 @@ Example:
 python script.py --test_data /path/to/test_data/
 python script.py --test_data /path/to/test_data.csv
 
-
-
+### `--test_labels`
+**Optional**
+Type: `str`
+Description:Path to the test labels file. This is only required when providing a directory of images as test data.
